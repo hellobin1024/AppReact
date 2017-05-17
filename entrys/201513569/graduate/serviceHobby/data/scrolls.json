@@ -1,0 +1,57 @@
+[
+  {
+    "title":"申请绿色通道","viceTitle":"","bottom":"马上申请",
+    "down": {
+      "title":"请选择帐户类型",
+      "labels": [
+        {"name":"choice_radio_1","title":"储蓄账户查询"},
+        {"name":"choice_radio_1","title":"信用卡查询"},
+        {"name":"choice_radio_1","title":"公积金查询"},
+        {"name":"choice_radio_1","title":"养老金查询"},
+        {"name":"choice_radio_1","title":"专户理财查询"},
+        {"name":"choice_radio_1","title":"理财产品查询"}
+        ]
+    }
+  },
+
+  {
+    "title":"申请宿舍","viceTitle":"","bottom":"马上申请",
+    "down": {
+      "title":"请选择在线申请业务类型",
+      "labels": [
+        {"name":"choice_radio_3","title":"信用卡查询"},
+        {"name":"choice_radio_3","title":"账单分期申请"},
+        {"name":"choice_radio_3","title":"建行快货申请"},
+        {"name":"choice_radio_3","title":"个人贷款申请"}
+      ]
+    }
+  },
+
+  {
+    "title":"申请免修英语","viceTitle":"","bottom":"马上申请",
+    "down": {
+      "title":"请选择业务类型",
+      "labels": [
+        {"name":"choice_radio_4","title":"开立银行账户"},
+        {"name":"choice_radio_4","title":"预约取款"},
+        {"name":"choice_radio_4","title":"兑换外币现钞"},
+        {"name":"choice_radio_4","title":"境外外汇汇款"},
+        {"name":"choice_radio_4","title":"兑换纪念币/钞"}
+      ]
+    }
+  },
+
+  {
+    "title":"申请导师","viceTitle":"","bottom":"马上申请",
+    "down": {
+      "title":"请点击选择定制菜单类",
+      "labels": [
+        {"name":"choice_radio_5","title":"电话银行菜单定制"},
+        {"name":"choice_radio_5","title":"信用卡热线菜单定制"}
+      ]
+    }
+  }
+
+
+
+]

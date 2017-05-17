@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body
+{
+    font-size: 13px;
+    /*font-family: "Microsoft Yahei",Arial, Helvetica, sans-serif,"黑体";*/
+    color: #333;
+    line-height: 2.0;
+    background: #edf7ff;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+/*apply part*/
+/*bottom start  修改background: rgba(6, 85, 51, 0.1);*/
+.keyNavigation .bottom {
+    width: 920px;
+    height: 97px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+    border-top: 1px solid rgba(200, 200, 200, 0.5);
+    background: rgba(36, 139, 230, 0.1);
+
+}
+
+.commonFunction {
+    width: 624px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 5px;
+    color: #fff;
+}
+
+.keyNavigation .block .functionalAreas {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*==============================添加的申请span标签的样式==================================*/
+.keyNavigation .block .functionalAreas .functionSpan {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    /*font-weight:bold;*/
+    line-height: 20px;
+    color: #111;
+}
+
+/*================================================================*/
+.keyNavigation .block {
+    display: inline-block;
+    text-align: center;
+    padding-top: 6px;
+    color: #ccc;
+    vertical-align: top;
+}
+
+.keyNavigation .bottom ul {
+    color: #777;
+    text-indent: 20px;
+    line-height: 2;
+}
+
+/*bottom end*/
+
+
+
+/**
+*   customMenu part
+*/
+.keyNavigation {
+    width: 100%;
+    min-width: 1263px;
+    height: 220px;
+    background: linear-gradient(to right bottom, rgba(172,218,244,0), rgba(0,0,0,0)),
+                    no-repeat center;
+}
+
+.keyNavigation .top {
+    width: 1024px;
+    height: 78px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.keyNavigation .top .block{
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    color: #ccc;
+    vertical-align: top;
+    font-size: 15px;
+    color: black;
+    font-family:Microsoft YaHei;
+}
+
+
+
+
+.keyNavigation .top .block .verticalBar{
+    display: inline-block;
+    height: 60px;
+    width: 1px;
+    border-left: 1px #0066b3 solid;
+    margin-left: 25px;
+}
+
+.keyNavigation .top .block .briefInformation{
+    display: block;
+}
+
+.keyNavigation .top .block .briefInformation ul {
+    color: #333;
+    text-indent: 20px;
+    line-height: 2;
+}
+
+/*原来的背景色background: rgba(36, 139, 230, 0.1);*/
+.keyNavigation .bottom {
+    width: 1150px;
+    height: 97px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+    border-top: 1px solid rgba(200,200,200,0.5);
+    background: rgba(36, 139, 230, 0.1);
+
+}
+/**
+*   assessment part
+*/
+
+.section {
+    width: 980px;
+    margin: 120px auto 60px auto;
+    font-family: "微软雅黑","黑体","宋体";
+}
+
+.topbg {
+    background: url(../../../build/images/shadow.png) repeat-x left top;
+    height: 40px;
+    position: absolute;
+    top: 101px;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+
+
+.w_170 {
+    width: 170px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.w_720 {
+    width: 720px;
+    border-right: 1px solid #eee;
+    padding-right: 30px;
+    overflow: hidden;
+}
+.lfloat {
+    float: left;
+    display: inline;
+}
+
+.w_170 {
+    width: 170px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.list {
+    font-family: "微软雅黑","黑体","宋体";
+    font-size: 14px;
+}
+
+
+
+.side_list2 .title_h2 {
+    padding-left: 20px;
+    height: 32px;
+    line-height: 32px;
+    background: url(../../../build/images/sq.png) left 11px no-repeat;
+}
+
+.side_list2 .province {
+    padding-top: 10px;
+}
+
+.province a {
+    display: inline-block;
+    width: 39px;
+}
+
+.vcc-pagelist {
+    margin: 40px auto 0px;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.page {
+    margin-top: 40px;
+}
+
+.page span {
+    margin: 0 8px;
+}
+
+#next, #one, #btn {
+    background: #0066b3;
+    color: #fff;
+    cursor: pointer;
+}
+.page span {
+    margin: 0 8px;
+}
+
+.vcc-pagelist input {
+    width: 40px;
+    height: 20px;
+    margin: 0 2px;
+    border: 1px solid #0066b3;
+}
+.page input {
+    margin: 0 2px;
+    width: 40px;
+    height: 20px;
+    border: 1px solid #0066b3;
+    line-height: 20px;
+    text-indent: 5px;
+    text-align: center;
+}
+
+
+.f_14_black {
+    color: #fff;
+    padding: 4px 10px;
+    margin: 0 4px;
+    background: #0066b3;
+    cursor: text;
+}
+.page .page_btn, .page a:hover {
+    color: #fff;
+    padding: 4px 10px;
+    margin: 0 4px;
+    background: #0066b3;
+}

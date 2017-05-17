@@ -1,0 +1,65 @@
+[
+  {
+    "label":"个人信息管理","sub":[
+                                {"label":"修改密码","query":"","route":"/changePassword.jsp"},
+                                {"label":"政策文件","query":"","route":"/comminfoservice/link/systemGuideLinkInfoViewInit.do"},
+                                {"label":"通知浏览","query":"","route":"/groupnews/grouptypenews_list.do"},
+    {
+      "label": "学术规范承诺书",
+      "query": "",
+      "route":"/questionnaire/student_questionnaire_init.do"
+    },
+                                {"label":"联系方式维护","query":"","route":"/person/stuinfo_personBasicInfoUpdateInit.do"},
+                                {"label":"学籍信息","query":"","route":"/person/stuinfo_studentAllInfo.do"},
+                                {"label":"学生表现信息","query":"","route":"/person/stuinfo_allRewPunInfo.do?userType=TS"},
+    {
+      "label": "照片浏览",
+      "query": "",
+      "route":"/photomanage/showAllPhotoesForStu.do"
+    }
+                              ]
+  },
+  {
+    "label":"报到注册","sub":[
+                            {"label":"报到须知","query":"","route":"/register/register_information.do"},
+                            {"label":"病史填写","query":"","route":"/healthyInfo/healthyInfo_medical_history_add_init.do"},
+                            {"label":"绿色通道申请","query":"","route":"/greenway/grad/student_grad_greenway_add_applyinfoInit.do"},
+                            {"label":"免修英语申请","query":"","route":"/exemption/exemptionEnglishApplyInit.do?inputType=1"},
+                            {"label":"打印体检表","query":"","route":"/healthyInfo/healthyInfo_examine_form_download.do"}
+                          ]
+  },
+  {
+    "label":"培养管理2016","sub":[
+                            {
+                              "label":"导师与学生","sub":[
+                              {
+                                "label": "申请导师",
+                                "query": "",
+                                "route":"/tutor/tutor_stu_apply_tutor_init.do"
+                              }
+                                                    ]
+                            },
+                            {
+                              "label":"培养方案与学生个人计划","sub":[
+                                                  {"label":"培养方案查询","query":"","route":"/cultivatenew/newCultivate_SchemeShow.do"},
+                                                  {"label":"制定培养计划","query":"","route":"/diminishMain"},
+                              {
+                                "label": "查看培养计划",
+                                "query": "",
+                                "route":"/cultivatenew/newCultivate_selectCourseShow.do"
+                              }
+                                                                 ]
+                            },
+                            {
+                              "label":"课程与选课","query":"","sub":
+                                                              [
+                                                                {
+                                                                  "label": "课程查询",
+                                                                  "query": "",
+                                                                  "route":"/newCultivateAllCourseQueryPage"
+                                                                }
+                                                              ]
+                            }
+                                ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+
+  {
+    "label": "修改密码",
+    "img": "/images/serviceHobby/ico/y3.png",
+    "type": "Panel",
+    "content": {
+      "title":"修改密码",
+      "auto": true,
+      "bean": {
+        "url": "/bsuims/reactPageDataRequest.do",
+        "params": {
+          "reactActionName": "changePasswordInitReact",
+          "reactPageName": "userPasswordManageRulePage"
+        }
+      }
+    }
+  },
+  {
+    "label": "校区地图",
+    "img": "/images/serviceHobby/ico/y_55.png",
+    "type": "Zoomer",
+    "content":
+    {
+      "auto":true,
+      "width":"900px",
+      "style":
+      {
+        "marginLeft":"-35px"
+      }
+    }
+  },
+  {
+    "label": "研究生手册",
+    "img": "/images/serviceHobby/ico/y4.png",
+    "type":"IFrame",
+    "content":{
+      "src":"/downloads/fresh/yjssc2016.pdf",
+      "width":"1000px",
+      "height":"500px"
+    }
+  },
+  {
+    "label": "业务提醒",
+    "img":"/images/serviceHobby/ico/bell.png",
+    "type":"Attention",
+    "content":{
+      "todoS":true
+    }
+  }
+]

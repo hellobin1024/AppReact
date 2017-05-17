@@ -1,0 +1,141 @@
+[
+  {
+    "label": "个人信息管理",
+    "sub": [
+      {
+        "label": "修改密码",
+        "query": "",
+        "selected": false,
+        "src": ""
+      },
+      {
+        "label": "政策文件",
+        "query": "",
+        "selected": true,
+        "src": ""
+      },
+      {
+        "label": "通知浏览",
+        "query": "",
+        "selected": true,
+        "src": ""
+      },
+      {
+        "label": "学术规范承诺书",
+        "query": "",
+        "selected": true,
+        "src": ""
+      },
+      {
+        "label": "联系方式维护",
+        "query": "",
+        "selected": false,
+        "src": ""
+      },
+      {
+        "label": "学籍信息",
+        "query": "",
+        "selected": true,
+        "src": ""
+      },
+      {
+        "label": "学生表现信息",
+        "query": "",
+        "selected": false,
+        "src": ""
+      },
+      {
+        "label": "照片浏览",
+        "query": "",
+        "selected": true,
+        "src": ""
+      }
+    ]
+  },
+  {
+    "label": "报到注册",
+    "sub": [
+      {
+        "label": "报到须知",
+        "query": "",
+        "selected": true,
+        "src": ""
+      },
+      {
+        "label": "病史填写",
+        "query": "",
+        "selected": false,
+        "src": ""
+      },
+      {
+        "label": "绿色通道申请",
+        "query": "",
+        "selected": true,
+        "src": ""
+      },
+      {
+        "label": "免修英语申请",
+        "query": "",
+        "selected": false,
+        "src": ""
+      },
+      {
+        "label": "打印体检表",
+        "query": "",
+        "selected": true,
+        "src": ""
+      }
+    ]
+  },
+  {
+    "label": "培养管理2016",
+    "sub": [
+      {
+        "label": "导师与学生",
+        "sub": [
+          {
+            "label": "申请导师",
+            "query": "",
+            "selected": false,
+            "src": ""
+          }
+        ]
+      },
+      {
+        "label": "培养方案与学生个人计划",
+        "sub": [
+          {
+            "label": "培养方案查询",
+            "query": "",
+            "selected": false,
+            "src": ""
+          },
+          {
+            "label": "制定培养计划",
+            "query": "",
+            "selected": false,
+            "src": ""
+          },
+          {
+            "label": "查看培养计划",
+            "query": "",
+            "selected": false,
+            "src": ""
+          }
+        ]
+      },
+      {
+        "label": "课程与选课",
+        "query": "",
+        "sub": [
+          {
+            "label": "课程查询",
+            "query": "",
+            "selected": false,
+            "src": ""
+          }
+        ]
+      }
+    ]
+  }
+]

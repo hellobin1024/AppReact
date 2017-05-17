@@ -1,0 +1,68 @@
+.commonFunction {
+    width: 1150px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 5px;
+    color: #fff;
+    position:relative;
+    left:-200px;
+}
+
+.common-function .candidate-panel{
+    display: none;
+}
+
+.common-function .down{
+    position: absolute;
+    right:10%;
+    bottom:20px;
+}
+
+.common-function .down span{
+    font-size: 2em;
+}
+
+.common-function .down span:hover{
+    color: #74a646;
+    cursor:pointer;
+}
+
+.commonFunction .block {
+    display: inline-block;
+    text-align: center;
+    padding-top: 6px;
+    color: #ccc;
+    vertical-align: top;
+}
+
+.block .functionalAreas {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.block .functionalAreas .functionSpan {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    /*font-weight:bold;*/
+    line-height: 20px;
+    color: #111;
+}
+.fa-angle-double-left{
+    position: absolute;
+    left: -25px;
+    top:10%;
+    z-index:999
+
+}
+.fa-angle-double-right{
+    position: absolute;
+    right: -25px;
+    top:10%;
+    z-index:999
+
+}

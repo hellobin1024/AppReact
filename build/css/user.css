@@ -1,0 +1,18 @@
+table.center > tbody > tr > th {
+    text-align: center border : 1 px solid #336699;
+}
+body {
+    background-image: url(../images/body.gif);
+}
+.icon-switcher {
+    background: #F9F7F6;
+    margin-left: 0px;
+    margin-top: -5px;
+    padding: 12px 12px;
+    position: absolute;
+    font-size: 22px;
+}
+
+.icon-switcher {
+    color: #3B5998 !important;
+}

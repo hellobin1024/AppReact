@@ -1,2 +1,6 @@
-# AppReact
-研究生和迎新平台的react实现
+
+### dependece  :jquery,bootstrap,highcharts
+
+
+
+# front-end is not bored

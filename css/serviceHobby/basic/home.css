@@ -1,0 +1,56 @@
+/*�����ĸ��Ĺ���
+background: linear-gradient(to top, rgba(0, 102, 179,0.5), rgba(196, 227, 248,0))url(../img/headline.jpg) no-repeat center;
+background: linear-gradient(to top, rgba(0, 102, 179,0.5), rgba(196, 227, 248,0));*/
+
+
+.Home{
+    margin-top:-100px;
+}
+
+.total{
+    width: 100%;
+    background: url(../../../build/images/total.png) no-repeat center;
+}
+.vcc-index_title_box {
+    overflow: hidden;
+}
+
+.vcc-index_title_box_1 {
+    border-bottom: none;
+    position: relative;
+}
+
+.vcc-index_title {
+    display: block;
+    width: 1024px;
+    margin: 0 auto;
+    height: 46px;
+    line-height: 32px;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+.vcc-index_title_a {
+    display: block;
+    float: left;
+    font-size: 28px;
+    font-weight: 500;
+    padding-right: 11px;
+    border-left: 10px solid #0066b3;
+    padding-left: 10px;
+    color: #333;
+}
+
+.vcc-index_title_box2 {
+    background: url(../../../build/images/index_title_box.gif);
+    width: 308px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 11px;
+    float: left;
+    font-size: 14px;
+    padding-bottom: 21px;
+    color: #fff;
+}
+
+

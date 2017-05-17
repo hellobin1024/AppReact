@@ -1,0 +1,109 @@
+/****   additional part    *****/
+.smain {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smain ul {
+    list-style: none;
+}
+
+.smain ul li {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.smain ul li.li-one {
+    margin-bottom: 15px;
+    display: inline;
+}
+
+.smain ul li.li-one .notice {
+    padding: 0;
+    margin: 0;
+    font-family: lucida, verdana, arial, sans-serif;
+    color: #333;
+    background: url(../../build/images/notice.png) no-repeat right;
+    text-align: center;
+    height: 60px;
+    border-right: 10px solid rgba(200, 200, 200, 0.1);
+}
+
+.smain ul li.li-two {
+    margin-bottom: 15px;
+    display: inline;
+}
+
+.smain ul li.li-two .news {
+    padding: 0;
+    margin: 0;
+    font-family: lucida, verdana, arial, sans-serif;
+    color: #0050D7;
+    font-size: 24px;
+    background: url(../../build/images/news.png) no-repeat left;
+    text-align: center;
+    height: 60px;
+}
+
+.smain ul li .newStudentList1,
+.smain ul li .newStudentList2 {
+    display: block;
+    width: 100%;
+    transition: all 2s;
+}
+
+.news_notice {
+    background: url(../../build/images/news_notice_bg.png) no-repeat center;
+    height: 40px;
+}
+
+.newStudentList1 center table.content,
+.newStudentList2 center table.content {
+    margin-top: 6px;
+    border-top: 1px solid #6EA0FF;
+    border-left: 1px solid #6EA0FF;
+    border-right: 1px solid #6EA0FF;
+    border-bottom: 1px solid #6EA0FF;
+    font-size: 12px;
+    align: center;
+    line-height: 24px;
+    border-collapse: collapse;
+    max-width: 1024px;
+}
+
+.newStudentList2 center table.content {
+    margin-top: 36px;
+}
+
+.newStudentList1 center table.content td.head {
+    font-size: 14px;
+    color: #6EA0FF;
+    font-weight: bold;
+    height: 28px;
+    padding-left: 4px;
+    border-right: 1px solid #6EA0FF;
+    border-bottom: 1px solid #6EA0FF;
+    empty-cells: show;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: center;
+}
+
+.newStudentList2 center table.content td.head {
+    font-size: 14px;
+    color: #6EA0FF;
+    font-weight: bold;
+    height: 28px;
+    padding-left: 4px;
+    border-right: 1px solid #6EA0FF;
+    empty-cells: show;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: center;
+    margin-bottom: -20px;
+}

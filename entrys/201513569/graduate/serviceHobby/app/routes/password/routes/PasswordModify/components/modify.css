@@ -1,0 +1,11 @@
+.breadcrumb span.separator {
+    padding: 0 5px;
+    color: #ccc;
+}
+
+.breadcrumb span.path-segment {
+    padding: 0 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+    line-height: 26px;
+}

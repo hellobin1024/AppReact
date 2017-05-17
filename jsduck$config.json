@@ -1,0 +1,7 @@
+{
+  "–output":"./sentach/",
+  "–encoding":"utf-8",
+  "–":["./components/basic"],
+  "–eg-iframe":"sencha/eg-iframe.html",
+  "–welcome":"sencha/welcome.html"
+}
