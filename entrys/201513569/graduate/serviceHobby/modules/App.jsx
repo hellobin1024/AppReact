@@ -14,6 +14,7 @@ import Scrolls from '../data/scrolls.json';
 import CommonFunction from './CommonFunction.jsx';
 import Brief from './Brief.jsx';
 
+var ProxyQ=require('../../../../../components/proxy/ProxyQ');
 
 var App =React.createClass({
     app$init:function(){

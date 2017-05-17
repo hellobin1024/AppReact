@@ -3,7 +3,7 @@ var webpack = require('webpack');
 module.exports = {
     devtool: 'source-map',
     entry: [
-        path.resolve(__dirname, './entrys/201513569/graduate/serviceHobby/classScheduleArrange/main.js')
+        path.resolve(__dirname, './entrys/201513569/graduate/serviceHobby/index.js')
     ],
     output: {
         path: path.resolve(__dirname, 'build'),
