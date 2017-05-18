@@ -53,7 +53,7 @@ var NavbarItem=React.createClass({
 
         //{/*二级学院*/}
         //console.log("collegeInfo_1====\r\n" + this.props.collegeInfo_1);
-        var collegeFunc_1=this.props.selectCollege1;
+        var secondCollegeFunc=this.props.selectSecondCollege;
         //if(this.props.collegeInfo_1!=null)
         //{
         //    var Collegelinkdowns_1 = this.props.collegeInfo_1.map(function (college1, index) {
@@ -64,7 +64,7 @@ var NavbarItem=React.createClass({
         //    });
         //}
 
-        var collegeCtrl_1=<Select ctrlName={'二级学院: '} data={this.props.collegeInfo_1} width={'180px'} queryFunc={collegeFunc_1}/>
+        var secondCollegeCtrl=<Select ctrlName={'二级学院: '} data={this.props.secondCollegeInfo} width={'180px'} queryFunc={secondCollegeFunc}/>
 
 
         //{/*教室*/}
@@ -90,7 +90,7 @@ var NavbarItem=React.createClass({
                             <td>
                                 {termCtrl}
                                 {collegeCtrl}
-                                {collegeCtrl_1}
+                                {secondCollegeCtrl}
                                 {roomCtrl}
                                 <button type="button" onClick={this.queryClick}
                                         style={{marginLeft:'30px', width:'44px',height:'23px'}}>查询</button>

@@ -18,7 +18,7 @@ var ClassSchedule = React.createClass({
                     termInfo: data.termList, initedTerm: true,
                     teachTypeList: data.teachTypeList,
                     collegeInfo: data.collegeList, initedCollege: true,
-                    collegeInfo_1:data.college1List,
+                    secondCollegeInfo:data.secondCollegeList, //此次返回数据里面只有 ‘请选择’
                     roomInfo:data.roomList, //此次返回数据里面只有 ‘请选择’
                     });
             }.bind(this),
@@ -28,7 +28,28 @@ var ClassSchedule = React.createClass({
         });
     },
 
-    initRoom:function(collegeSelected){
+    initSecondCollegeAndRoom:function(collegeSelected){
+        $.ajax({
+            type: 'POST',
+            url: 'reactPageDataRequest.do',
+            dataType: 'json',
+            data: {
+                reactPageName: 'newCultivateTeachSchedulePage',
+                reactActionName: 'getSecondCollegeAndRoomListJS',
+                collegeId:collegeSelected,
+            },
+            cache: false,
+            success: function(data) {
+                this.setState({secondCollegeInfo:data.secondCollegeList,initedSecondCollege: true,
+                    roomInfo: data.roomList, initedRoom: true});
+            }.bind(this),
+            error: function(xhr, status, err) {
+                console.error(this.props.url, status, err.toString());
+            }.bind(this)
+        });
+    },
+
+    initRoom:function(collegeSelected,secondCollegeSelected){
         $.ajax({
             type: 'POST',
             url: 'reactPageDataRequest.do',
@@ -37,6 +58,7 @@ var ClassSchedule = React.createClass({
                 reactPageName: 'newCultivateTeachSchedulePage',
                 reactActionName: 'getRoomListJS',
                 collegeId:collegeSelected,
+                secondCollegeId:secondCollegeSelected,
             },
             cache: false,
             success: function(data) {
@@ -48,7 +70,7 @@ var ClassSchedule = React.createClass({
         });
     },
 
-    handleQuery: function(termInfo, collegeInfo, collegeInfo_1, roomInfo) {
+    handleQuery: function(termInfo, collegeInfo, secondCollegeInfo, roomInfo) {
         $.ajax({
             type: 'POST',
             url: 'reactPageDataRequest.do',
@@ -57,7 +79,7 @@ var ClassSchedule = React.createClass({
                 reactActionName: 'getScheduleMatrixAndTaskListJS',
                 termId: termInfo,
                 collegeId: collegeInfo,
-                collegeId1: collegeInfo_1,
+                collegeId1: secondCollegeInfo,
                 roomId: roomInfo
             },
             cache: false,
@@ -157,8 +179,9 @@ var ClassSchedule = React.createClass({
             showInfo =<TaskSchedule
                 termInfo={this.state.termInfo}
                 collegeInfo={this.state.collegeInfo}
-                collegeInfo_1={this.state.collegeInfo_1}
+                secondCollegeInfo={this.state.secondCollegeInfo}
                 roomInfo={this.state.roomInfo}
+                initSecondCollegeAndRoom={this.initSecondCollegeAndRoom}
                 initRoom={this.initRoom}
                 personList={this.state.personList}
                 queryFunc={this.handleQuery}

@@ -10,14 +10,17 @@ var TaskSchedule = React.createClass({
     },
 
     selectCollege: function (c) {
-        if(this.props.initRoom!==undefined && this.props.initRoom!==null){
-            this.props.initRoom(c);
+        if(this.props.initSecondCollegeAndRoom!==undefined && this.props.initSecondCollegeAndRoom!==null){
+            this.props.initSecondCollegeAndRoom(c);
         }
         this.setState({collegeSelected: c});
     },
 
-    selectCollege1: function (c1) {
-        this.setState({collegeSelected_1: c1});
+    selectSecondCollege: function (c1) {
+        if(this.props.initRoom!==undefined && this.props.initRoom!==null){
+            this.props.initRoom(this.state.collegeSelected,c1);
+        }
+        this.setState({secondCollegeSelected: c1});
     },
 
     selectRoom: function(r){
@@ -39,7 +42,7 @@ var TaskSchedule = React.createClass({
         }
         // 二级学院是可选的
         this.props.queryFunc(this.state.termSelected,this.state.collegeSelected,
-                    this.state.collegeSelected_1, this.state.roomSelected);
+                    this.state.secondCollegeSelected, this.state.roomSelected);
     },
 
     handleSaveScheduleFunc: function(saveElem){
@@ -54,7 +57,7 @@ var TaskSchedule = React.createClass({
             termInfo =this.props.termInfo;
         }
         //termInfo 就当前学期所以去第一个
-        return {termSelected: termInfo[0].value, collegeSelected: null, collegeSelected_1: null, roomSelected: null};
+        return {termSelected: termInfo[0].value, collegeSelected: null, secondCollegeSelected: null, roomSelected: null};
     },
 
     render: function() {
@@ -63,12 +66,12 @@ var TaskSchedule = React.createClass({
                 <NavbarItem
                     termInfo={this.props.termInfo}
                     collegeInfo={this.props.collegeInfo}
-                    collegeInfo_1={this.props.collegeInfo_1}
+                    secondCollegeInfo={this.props.secondCollegeInfo}
                     roomInfo={this.props.roomInfo}
                     queryFunc={this.queryFunc}
                     selectTerm = {this.selectTerm}
                     selectCollege = {this.selectCollege}
-                    selectCollege1 = {this.selectCollege1}
+                    selectSecondCollege = {this.selectSecondCollege}
                     selectRoom={this.selectRoom}
                     />
                 {/*<TermSelection
