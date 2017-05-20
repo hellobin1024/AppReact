@@ -4,6 +4,8 @@ import PasswordModify from '../password/PasswordModify.jsx';
 import AllCourseQuery from './allCourseQuery/allCourseQueryMain.jsx';
 import DiminishMain from './studentSelfModifyCultivatePlan/diminishMainCompound.jsx';
 import News from './News.jsx';
+import CetScore from './cetScore/CetScore.jsx';
+
 var config=require('../../../../../config.json');
 import '../../../../../css/serviceHobby/basic/mainSection.css';
 var SyncActions = require('../../../../../components/flux/actions/SyncActions');
@@ -89,6 +91,10 @@ var MainSection = React.createClass({
                 case App.getAppRoute() + "/diminishMain":
                     ctrl = <DiminishMain/>;
                     label = "制定培养计划";
+                    break;
+                case App.getAppRoute() + "/cetScore":
+                    ctrl = <CetScore/>;
+                    label = "四六级成绩信息";
                     break;
                 default:
                     var reg=/.*\.do.*[\.do|\.jsp]?.*/;

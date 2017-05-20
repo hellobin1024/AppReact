@@ -43,12 +43,9 @@
                               "label":"培养方案与学生个人计划","sub":[
                                                   {"label":"培养方案查询","query":"","route":"/cultivatenew/newCultivate_SchemeShow.do"},
                                                   {"label":"制定培养计划","query":"","route":"/diminishMain"},
-                              {
-                                "label": "查看培养计划",
-                                "query": "",
-                                "route":"/cultivatenew/newCultivate_selectCourseShow.do"
-                              }
-                                                                 ]
+                                                  {"label": "查看培养计划", "query": "", "route":"/cultivatenew/newCultivate_selectCourseShow.do"},
+                                                  {"label": "四六级成绩信息", "query": "", "route":"/cetScore"}
+                                                  ]
                             },
                             {
                               "label":"课程与选课","query":"","sub":

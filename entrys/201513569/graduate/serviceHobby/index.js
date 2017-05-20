@@ -34,6 +34,7 @@ render((
             <Route path={window.App.getAppRoute()+"/diminishMain"} component={MainSection}/>
             <Route path={window.App.getAppRoute()+"/trafficplan/trafficPlanInit.do"} component={MainSection}/>
             <Route path={window.App.getAppRoute()+"/register/dormitory_apply.do"} component={MainSection}/>
+            <Route path={window.App.getAppRoute()+"/cetScore"} component={MainSection}/>
         </Route>
     </Router>
 ), document.getElementById('root'))
